@@ -1,0 +1,45 @@
+$red: #cd5c5c;
+$coral: #f08080;
+$salmon: #fa8072;
+$negro:#221F1F;
+
+.logo {
+    color: $red;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0 1.5rem;
+            position: relative;
+        }
+    }
+}
+
+.link {
+    color: $negro;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: $red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
